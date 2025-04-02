@@ -1,19 +1,27 @@
 --Git 전역으로 사용자 이름과 이메일 주소를 설정
-$git config --global user.name "xps13"
-$git config --global user.email "tlswlsdntks@naver.com"
-
+git config --global user.name "xps13"
+git config --global user.email "tlswlsdntks@naver.com"
 
 --기본 브랜치명 변경
-$git config --global init.defaultBranch main
-
+git config --global init.defaultBranch main
 
 --깃 저장소 생성
-$git init
-
+git init
 
 --깃 상태 확인
-$git status
+git status
 
+--파일 하나 담기
+git add tigers.yaml
+
+--모든 파일 담기
+git add .
+
+--커밋
+git commit
+
+--커밋 메세지 포함
+git commit -m "FIRST COMMIT"
 
 --Vi 명령어
 입력 시작	i	명령어 입력 모드에서 텍스트 입력 모드로 전환
@@ -23,3 +31,10 @@ $git status
 저장하고 종료	:wq	입력한 것이 있을 때 사용
 위로 스크롤	k	git log등에서 내역이 길 때 사용
 아래로 스크롤	j	git log등에서 내역이 길 때 사용
+
+--깃 로그 확인
+git log
+
+--두 가지 상태 간의 차이점을 비교하고 보여주는 데 사용
+git diff
+

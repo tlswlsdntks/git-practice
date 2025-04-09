@@ -13,6 +13,7 @@ members:
 - Gamora
 - Nebula
 - Hook
+- Pull-Request
 
 fetch: this
 alias: cam

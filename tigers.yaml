@@ -18,3 +18,5 @@ members:
 
 fetch: this
 alias: cam
+
+signed: yes
